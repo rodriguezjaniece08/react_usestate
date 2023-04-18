@@ -11,6 +11,12 @@ export default function App() {
     }
   );
 
+  function spendGiftCard() {
+    setGiftCard(prevState => {
+      
+    })
+  }
+
   return (
     <div style={{padding: "40px", margin: "0 auto"}}>
       <h1>
